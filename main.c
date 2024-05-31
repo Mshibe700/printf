@@ -4,7 +4,7 @@
 
 /**
  * main - Program Entry point
- * by Philasande and Laghlimi
+ * by Philasande
  *
  * Return: Always 0
  */
@@ -15,7 +15,7 @@ int main(void)
 	unsigned int val;
 	void *addr;
 
-	size = _printf("Project done by Philasande and Laghlimi.\n");
+	size = _printf("Project done by Philasande.\n");
 	size2 = printf("Its all about how much you can adapt.\n");
 	val = (unsigned int)INT_MAX + 1024;
 	addr = (void *)0x7ffe637541f0;
